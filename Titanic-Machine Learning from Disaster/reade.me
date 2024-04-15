@@ -1,0 +1,20 @@
+Use machine learning to create a model that predicts which passengers survived the Titanic shipwreck (難破).
+
+[The Challenge]
+On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
+
+While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
+
+In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+
+[Data description]
+survivad -> survival : 1 if the passenger survived ; 0 if the passenger died
+pclass -> Ticket class : 1st = Upper ; 2nd = Middle ; 3rd = Lower
+sex -> sex
+Age -> Age in years
+sibsp -> # of siblings / spouse aboard the Titanic
+parch -> # of parents / children aboard the Titanic => Some children travelled only with a nanny, therefore parch=0 for them.
+ticket -> Ticket number
+fare -> Passenger fare (運賃)
+cabin -> cabin number
+embarked -> Port of Embarkation : C = Cherbourg, Q = Queenstown, S = Southampton
